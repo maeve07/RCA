@@ -2,7 +2,7 @@
 
 > [**Regional Semantic Contrast and Aggregation for Weakly Supervised Semantic Segmentation**](https://arxiv.org/abs/2203.09653),            
 > [Tianfei Zhou](https://www.tfzhou.com/), Meijie Zhang, Fang Zhao, Jianwu Li <br>
-> *To be appeared in CVPR 2022*
+> *CVPR 2022 ([arXiv 2203.09653](https://arxiv.org/abs/2203.09653))*
 
 ## News
 
@@ -21,3 +21,7 @@ Learning semantic segmentation from weakly-labeled (e.g., image tags only) data 
     year      = {2022}
 }
 ```
+
+## Relevant Projects
+
+* Group-Wise Learning for Weakly Supervised Semantic Segmentation (AAAI 2021, TIP 2022) [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9652068)][[code](https://github.com/Lixy1997/Group-WSSS)]
