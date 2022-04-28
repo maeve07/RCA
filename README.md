@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 ### Clone
 
-git clone -- recursive https://github.com/maeve07/RCA
+```git clone -- recursive https://github.com/maeve07/RCA```
 
 ## Dataset
 
