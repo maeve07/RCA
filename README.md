@@ -26,12 +26,11 @@ You can download [PASCAL VOC 2012](https://drive.google.com/file/d/1uh5bWXvLOpE-
 ### Classification network
 Please run ```python train.py``` for training the classification network.
 
-3. Generate the pseudo labels of the training set by
+Generate the pseudo labels of the training set by
 
-    ```bash
-    python gen_labels.py
-    ```
-
+```bash
+python gen_labels.py
+```
 
 ### Segmentation network
 Once the pseudo ground-truths are generated, they are employed to train the semantic segmentation network. We use Deeplab-v2 in all experiments. But most popular FCN-like segmentation networks can be used instead.  
