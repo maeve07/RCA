@@ -33,7 +33,7 @@ python gen_labels.py
 ```
 
 ### Segmentation network
-Once the pseudo ground-truths are generated, they are employed to train the semantic segmentation network. We use Deeplab-v2 in all experiments. But most popular FCN-like segmentation networks can be used instead.  
+We use Deeplab-v2 for the segmentation network with our generated pseudo labels. But most popular FCN-like segmentation networks can be used instead.  
 
 ## Abstract
 
