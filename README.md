@@ -16,6 +16,7 @@ pip install -r requirements.txt
 git clone -- recursive https://github.com/maeve07/RCA
 
 please run python train.py for training the classification network, then generate the pseudo labels of the training set by 
+
     ```bash
     python gen_labels.py
     ```
