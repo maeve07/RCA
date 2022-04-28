@@ -28,7 +28,7 @@ Please run ```python train.py``` for training the classification network.
 
 Generate the pseudo labels of the training set by
 
-    ```bash
+    ```
     python gen_labels.py
     ```
 
