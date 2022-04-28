@@ -5,7 +5,9 @@
 > *CVPR 2022 ([arXiv 2203.09653](https://arxiv.org/abs/2203.09653))*
 
 
-## Prepare for envs
+## Prepare for env
+We train our model using PyTorch 1.4.0 with four NVIDIA V100 GPUs with 32GB memory per card.
+Other Python modules can be installed by running
 
 ```bash
 pip install -r requirements.txt
@@ -13,20 +15,23 @@ pip install -r requirements.txt
 
 ## Training
 
+### Clone
+
 git clone -- recursive https://github.com/maeve07/RCA
 
-please run python train.py for training the classification network, then generate the pseudo labels of the training set by 
+## Dataset
 
+You can download [PASCAL VOC 2012](https://drive.google.com/file/d/1uh5bWXvLOpE-WZUUtO77uwCB4Qnh6d7X/view) dataset for training, and you also need to specify the path of your downloaded dataset.
 
-```bash
-python gen_labels.py
-``` 
+### Classification network
+Please run ```python train.py``` for training the classification network.
+Generate the pseudo labels of the training set by 
+    ```bash
+    python gen_labels.py
+    ```
 
-### Dataset
-
-You can download PASCAL VOC 2012 for training.(https://drive.google.com/file/d/1uh5bWXvLOpE-WZUUtO77uwCB4Qnh6d7X/view)
-
-
+### Segmentation network
+Once the pseudo ground-truths are generated, they are employed to train the semantic segmentation network. We use Deeplab-v2 in all experiments. But most popular FCN-like segmentation networks can be used instead.  
 
 ## Abstract
 
