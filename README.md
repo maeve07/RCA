@@ -25,7 +25,9 @@ You can download [PASCAL VOC 2012](https://drive.google.com/file/d/1uh5bWXvLOpE-
 
 ### Classification network
 Please run ```python train.py``` for training the classification network.
+
 Generate the pseudo labels of the training set by 
+
     ```bash
     python gen_labels.py
     ```
