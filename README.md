@@ -30,6 +30,7 @@ Generate the pseudo labels of the training set by
 
     ```
     python gen_labels.py
+    
     ```
 
 ### Segmentation network
