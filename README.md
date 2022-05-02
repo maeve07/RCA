@@ -1,8 +1,14 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/regional-semantic-contrast-and-aggregation/weakly-supervised-semantic-segmentation-on)](https://paperswithcode.com/sota/weakly-supervised-semantic-segmentation-on?p=regional-semantic-contrast-and-aggregation)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/regional-semantic-contrast-and-aggregation/weakly-supervised-semantic-segmentation-on-1)](https://paperswithcode.com/sota/weakly-supervised-semantic-segmentation-on-1?p=regional-semantic-contrast-and-aggregation)
+
+
 # Regional Semantic Contrast and Aggregation for Weakly Supervised Semantic Segmentation
 
 > [**Regional Semantic Contrast and Aggregation for Weakly Supervised Semantic Segmentation**](https://arxiv.org/abs/2203.09653),            
 > [Tianfei Zhou](https://www.tfzhou.com/), Meijie Zhang, Fang Zhao, Jianwu Li <br>
 > *CVPR 2022 ([arXiv 2203.09653](https://arxiv.org/abs/2203.09653))*
+
 
 ## Abstract
 
